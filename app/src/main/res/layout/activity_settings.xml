@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ama.pedometer.menu.Settings"
+    android:background="@color/primaryBlack">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<EditText-->
+        <!--android:id="@+id/mytextText"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:inputType= "number"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="68dp"-->
+        <!--android:background="#FFF"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth='100dp'
+            android:text="Choose your Gender:"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/sp_gender_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="8dp"
+            android:entries="@array/gender_options"
+            android:prompt="@string/gender_options_prompt"
+            android:background="#FFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth='100dp'
+            android:text="Choose your Weight Range:"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_margin="8dp"/>
+        <Spinner
+            android:id="@+id/sp_weight_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:entries="@array/weight_options"
+            android:prompt="@string/weight_options_prompt"
+            android:background="#FFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth='100dp'
+            android:text="Choose your Height:"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:layout_margin="8dp"/>
+        <Spinner
+            android:id="@+id/sp_height_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:entries="@array/height_options"
+            android:prompt="@string/height_options_prompt"
+            android:background="#FFF"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_margin="8dp"
+            android:onClick="onClickSubmit"/>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

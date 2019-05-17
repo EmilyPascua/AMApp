@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Activity Monitoring Application</string>
+
+    <string name="gender_options_prompt">Choose Gender</string>
+    <string-array name="gender_options">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string name="weight_options_prompt">Choose Weight Range</string>
+    <string-array name="weight_options">
+        <item>100 - 110</item>
+        <item>110 - 120</item>
+        <item>120 - 130</item>
+        <item>130 - 140</item>
+        <item>140 - 150</item>
+        <item>150 - 160</item>
+        <item>160 - 170</item>
+        <item>170 - 180</item>
+        <item>180 - 190</item>
+        <item>190 - 200</item>
+    </string-array>
+
+    <string name="height_options_prompt">Choose Height</string>
+    <string-array name="height_options">
+        <item>4\' 5\"</item>
+        <item>4\' 6\"</item>
+        <item>4\' 7\"</item>
+        <item>4\' 8\"</item>
+        <item>4\' 9\"</item>
+        <item>4\' 10\"</item>
+        <item>4\' 11\"</item>
+        <item>5\' 0\"</item>
+        <item>5\' 1\"</item>
+        <item>5\' 2\"</item>
+        <item>5\' 3\"</item>
+        <item>5\' 4\"</item>
+        <item>5\' 5\"</item>
+        <item>5\' 6\"</item>
+        <item>5\' 7\"</item>
+        <item>5\' 8\"</item>
+        <item>5\' 9\"</item>
+        <item>5\' 10\"</item>
+        <item>5\' 11\"</item>
+        <item>6\' 0\"</item>
+    </string-array>
+
+</resources>

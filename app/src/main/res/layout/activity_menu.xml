@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBlack"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal">
+    <me.crosswall.lib.coverflow.core.PagerContainer
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryBlack"
+        android:paddingTop="20dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/menu"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </me.crosswall.lib.coverflow.core.PagerContainer>
+</LinearLayout>
